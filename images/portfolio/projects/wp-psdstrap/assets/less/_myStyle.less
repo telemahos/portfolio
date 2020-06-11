@@ -1,0 +1,405 @@
+// #################################################################
+// MEDIA QUERYS
+// #################################################################
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/*font-family: 'Halant', serif;*/
+
+html,body {
+	/*marsgin:0;*/
+	/*padding:0;*/
+	height:100%; /* needed for container min-height */
+}
+body {
+	font: 16px Arial,Helvetica,sans-serif;
+	color: #777777;
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+}
+/*.container {
+	position:relative; 
+	height:auto !important; 
+	min-height:100%; 
+}*/
+a {
+	color: #30ACE0;
+}
+a:hover {
+	text-decoration: none;
+}
+.full-width {
+	float: left;
+	width: 100%;
+}
+section {
+	margin-bottom: 40px;
+	padding: 60px 0;
+	width: 100%;
+}
+.top-overflow {
+    background: none repeat scroll 0 0 #ffffff;
+    height: 80px;
+    width: 100%;
+}
+.top-overflow-transparent {
+    background: none repeat scroll 0 0 transparent;
+    height: 80px;
+    width: 100%;
+}
+.background-lightGray {
+    background: none repeat scroll 0% 0% #FAFAFA;
+}
+.background-darkGray {
+    background: none repeat scroll 0% 0% #2E3336;
+}
+.background-bootstrap {
+	background: none repeat scroll 0% 0% #472F6B;
+	margin-top: -40px;
+	margin-bottom: 0px;
+	color: #ffffff;
+}
+.intro-script h1 {
+	font-family: 'Lato', serif;
+	font-size: 46px;
+	line-height: 54px;
+	padding-bottom: 30px;
+}
+
+
+// #################################################################
+// INFO BOX
+// #################################################################
+/* infoBox: */	
+.info-box {
+	// opacity: 0.8;
+	/* Background: */
+	border: 1px solid rgba(150,150,150,0.15);
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	padding: 0 0 20px 0;
+	background: #ffffff;
+	margin-bottom: 12px;
+}	
+	.info-box:hover > .info-box-header {
+		min-height: 26px;
+		
+	}
+.info-box-header {
+	position: relative;
+	border: 4px solid transparent;
+	-webkit-border-top-left-radius: 12px;
+	-webkit-border-top-right-radius: 12px;
+	-moz-border-radius-topleft: 12px;
+	-moz-border-radius-topright: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	min-height: 16px;
+
+	-webkit-transition: min-height 0.38s ease-in-out;
+		-moz-transition: min-height 0.38s ease-in-out;
+		-ms-transition: min-height 0.38s ease-in-out;
+		-o-transition: min-height 0.38s ease-in-out;
+		transition: min-height 0.38s ease-in-out;
+}
+	// triangle
+	.info-box-header:after, 
+	.info-box-header:before { 
+		top: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; 
+	} 
+	.wordpress-box {
+		background: #222222;
+	}
+	.bootstrap-box {
+		background: #5C4283;
+	}
+	.ecommerce-box {
+		background: #0086DA;
+	}
+	.info-box-header.bootstrap-box:after { 
+		border-color: rgba(92, 66, 131, 0); border-top-color: #5C4283; border-width: 15px; margin-left: -15px; 
+	} 
+	.info-box-header.bootstrap-box:before { 
+		border-color: rgba(92, 66, 131, 0); border-top-color: #5C4283; border-width: 18px; margin-left: -18px; 
+	}
+	.info-box-header.wordpress-box:after { 
+		border-color: rgba(34, 34, 34, 0); border-top-color: #222222; border-width: 15px; margin-left: -15px; 
+	} 
+	.info-box-header.wordpress-box:before { 
+		border-color: rgba(34, 34, 34, 0); border-top-color: #222222;border-width: 18px; margin-left: -18px; 
+	}
+	.info-box-header.ecommerce-box:after { 
+		border-color: rgba(0, 134, 218, 0); border-top-color: #0086DA; border-width: 15px; margin-left: -15px; 
+	} 
+	.info-box-header.ecommerce-box:before { 
+		border-color: rgba(0, 134, 218, 0); border-top-color: #0086DA; border-width: 18px; margin-left: -18px; 
+	}
+.info-box-hero {
+	background: #EFEFEF;
+	min-height: 170px;
+}
+	.info-box-hero h2 {
+		margin-top: 0;
+		padding-top: 35px;
+		color: #444444;
+	}
+	.info-box-hero h2 span {
+		font-weight: bolder;
+	}
+.info-box-circle {
+	// background: #5C4283;
+	border: 9px solid #FFFFFF;
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+	margin-left: 30%;
+	margin-top: -75px;
+}
+	.info-box-circle.bootstrap-box span {
+		font-family: 'Helvetica Neue',Arial,'Lato', serif;
+		font-size: 64px;
+		font-weight: bolder;
+		border: 1px solid #ffffff;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;
+		color: #ffffff;
+		padding: 0px 12px;
+		line-height: 1.9em;
+	}
+	.info-box-circle span {
+		font-size: 84px;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;
+		color: #ffffff;
+		padding: 0px 20px;
+		line-height: 1.45em;
+	}
+	.info-box-circle .icon-wordpress {
+	    width: 82px;
+	    height: 82px;
+	    color: #ffffff;
+	    margin-top: 17%;
+	}
+	.info-box-circle .icon-cart {
+		width: 62px;
+	    height: 62px;
+	    color: #ffffff;
+	    margin-top: 25%;
+	}
+	.wordpress-box img {
+		padding-top: 12px;
+		padding-left: 12px;
+	}
+.info-box-content {
+	padding: 30px 20px;
+	// border-bottom: 1px solid #eeeeee; 
+}
+.info-box-content p {
+	// font-size: 16px;
+}
+.btn-outline-bootstrap {
+    color: #563D7C;
+    background-color: transparent;
+    border-color: #563D7C;
+}
+	.btn-outline-bootstrap:hover, .btn-outline-bootstrap:focus, .btn-outline-bootstrap:active {
+	    color: #FFF;
+	    background-color: #563D7C;
+	    border-color: #563D7C;
+	}
+.btn-outline-wordpress {
+    color: #222222;
+    background-color: transparent;
+    border-color: #222222;
+}
+	.btn-outline-wordpress:hover, .btn-outline-wordpress:focus, .btn-outline-wordpress:active {
+	    color: #FFF;
+	    background-color: #222222;
+	    border-color: #222222;
+	}
+.btn-outline-ecommerce {
+    color: #0086DA;
+    background-color: transparent;
+    border-color: #0086DA;
+}
+	.btn-outline-ecommerce:hover, .btn-outline-ecommerce:focus, .btn-outline-ecommerce:active {
+	    color: #FFF;
+	    background-color: #0086DA;
+	    border-color: #0086DA;
+	}
+// #################################################################
+// WORKFLOW BOX
+// #################################################################
+.workflow-box {
+	margin-bottom: 20px;
+	border: 1px dotted #555555;
+	border-radius: 12px;
+	border-radius-color: red; 
+	padding: 20px;
+}
+	.workflow-box h3 {
+		width: 70px;
+		height: 70px;
+		color: #FFF;
+		background: none repeat scroll 0% 0% #30ACE0;
+		text-align: center;
+		border-radius: 40px;
+		padding-top: 15px;
+		font-size: 36px;
+		text-shadow: 0px -2px 1px rgba(0, 0, 0, 0.8);
+	}	
+	.workflow-box h4 {
+		font-size: 26px;
+		color: #656565;
+	}
+
+
+// #################################################################
+// MEDIA QUERYS
+// #################################################################
+@media(max-width:767px){
+    body {
+        background: blue;
+    }
+}
+
+// #################################################################
+// MEDIA QUERYS
+// #################################################################
+@media(min-width:768px){
+    body {
+        background: red;
+    }
+}
+
+// #################################################################
+// MEDIA QUERYS
+// #################################################################
+@media(min-width:992px){
+    body {
+        background: green;
+    }
+}
+
+// #################################################################
+// MEDIA QUERYS
+// #################################################################
+@media(min-width:1200px){
+	body {
+        background: #ffffff;
+        padding-top: 80px;
+	  	padding-bottom: 30px;
+    }
+	/* Navigation Bar
+	-------------------------------------------------------------- */
+	.navbar-nav {
+	    float: left;
+	    margin: 10px;
+	    letter-spacing: 1px;
+	}
+	.navbar-default {
+		/*min-width: 1000px;*/
+		min-height: 67px;
+	    text-shadow: 0px 1px 0px #000;
+	    background: linear-gradient(to bottom, #485053 0%, #3B4447 100%) repeat scroll 0% 0% transparent;
+	    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
+	    color: #C8CACB;
+	    border-top: 3px solid #2D3235;
+	    border-bottom: 0px solid #000;
+	    position: absolute;
+	    width: 100%;
+	    top: 0px;
+	    left: 0px;
+	    z-index: 100;
+	}
+	.navbar-nav > li > a {
+	    margin-top: -11px;
+		margin-bottom: -10px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	}
+	.navbar-default .navbar-nav > li > a {
+	    color: #ffffff;
+	}
+	.navbar-default .navbar-nav > li > a:hover {
+		color: #C8CACB;
+		background: #35393B;
+	}
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus {
+	    background: none repeat scroll 0% 0% #0086DA; /*#35393B*/
+		text-decoration: none;
+		color: #ffffff;
+		margin-top: -11px;
+		margin-bottom: -10px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+   
+}
+// #################################################################
+// Icon Feature Boxes
+// #################################################################
+.color-primary {
+    color: #30ACE0 !important;
+}
+.col3-icon-feature {
+	// border: 1px solid red;
+	margin-bottom: 40px;
+}
+.col3-icon-feature span {
+    font-size: 88px;
+    color: rgb(71,47,107);
+}
+.col3-icon-feature h4 {
+  // margin-top: 40px;
+  color: #000000;
+  font-size: 28px;
+
+}
+.col3-icon-feature p {
+  color: #777;
+  margin-top: 5px;
+  padding: 10px 50px;
+}
+
+
+
+// #################################################################
+// MEDIA QUERYS
+// #################################################################
+
+
+// #################################################################
+// MEDIA QUERYS
+// #################################################################
+
+
+// #################################################################
+// MEDIA QUERYS
+// #################################################################
+
+
+
+// #################################################################
+// MEDIA QUERYS
+// #################################################################
+
+
+
+// #################################################################
+// MEDIA QUERYS
+// #################################################################
+
+
+
+// #################################################################
+// MEDIA QUERYS
+// #################################################################
+
+
