@@ -1,0 +1,622 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,300italic,300,200,600italic,200italic,700italic,700);
+
+/* ==========================================================================
+   General
+   ========================================================================== */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.8px;
+    background: transparent;
+}
+section {
+     margin-bottom: 30px;    
+}
+.section-carousel {
+   margin-bottom: -40px;    
+}
+.section-footer {
+   margin-bottom: 0px;    
+}
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+.navbar {
+    min-height: 100px;
+    background: rgba(231,237,240, 0.7);
+    box-shadow: 2px 3px 5px 0px rgba(26, 24, 28, 0.14); 
+}
+/*.navbar-fixed-top {
+  top: -100px; 
+}*/
+/*.navbar-fixed-top {
+  position: static; 
+}*/
+.navbar-default {
+    /*background-color: #F8F8F8;*/
+    border-color: transparent;
+}
+.nav > li > a {
+    text-transform: uppercase;
+    color: #484848;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px 10px;
+}
+.nav > li.active > a {
+   color: #000000;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav > li:hover > a,
+.nav > li:focus > a {
+   padding-bottom: 43px;
+   margin-bottom: -2px;
+   border-bottom: 2px solid #26668d;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+   padding-bottom: 43px;
+   margin-bottom: -2px;
+   background-color: transparent;
+   border-bottom: 2px solid #26668d;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: transparent;
+    padding-bottom: 43px;
+    margin-bottom: -2px;
+    border-bottom: 2px solid #26668D;
+}
+.dropdown-menu {
+    padding: 0px 0px;
+}
+.navbar-nav > li > .dropdown-menu,
+.navbar-nav > li:hover > .dropdown-menu,
+.navbar-nav > li:focus > .dropdown-menu
+{
+    margin-top: 4px;
+}
+.dropdown-menu > li > a {
+   font-size: 18px;
+   font-weight: 300;
+   color: #686868;
+   padding: 8px 20px;
+   min-width: 193px;
+   /*border-bottom: 1px solid #26668d;*/
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #5084a3;
+    background-image: linear-gradient(to bottom, #5084a3 0px, #5084a3 100%);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+.container > .navbar-header,
+.container > .navbar-collapse {
+    margin-top: 25px;
+}
+.brand-logo {
+   margin-top: 0px;
+}
+
+.navbar-brand > img {
+   margin-top: 10px;
+}
+.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* ==========================================================================
+   Carousel
+   ========================================================================== */
+.section-carousel .container {
+/*     width: 990px;   */
+  padding-right: 20px;
+      padding-left: 20px;
+}
+.carousel-inner .item {
+     min-height: 350px;   
+
+}
+.carousel-caption {
+   right: 20%;
+   left: 20%;
+   padding-bottom: 30px;
+   /*width: 100%;*/
+   /*width: 990px;*/
+}
+.carousel-caption h1 {
+   margin-top: 80px;
+   font: 300 italic 55px / 65px 'Source Sans Pro';
+   margin-left: -160px;
+}
+.carousel-caption p {
+   font: 600 20px / 20px 'Source Sans Pro';
+   text-transform: uppercase;
+   width: 100%;
+   text-align: center;
+}
+.carousel-caption-right {
+   margin-left: 290px;
+}
+.carousel-control {
+    top: 30%;
+    opacity: 1;
+    margin: 0 -30px;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    right: 0px;
+    left: auto;
+    background-image: none;
+}
+/* ==========================================================================
+   Info Boxen
+   ========================================================================== */
+.infobox-content img {
+  float: left;
+  margin: 5px 20px 0 0;
+}
+.infobox-content {
+   background: rgba(255,255,255,0.5);
+    padding: 15px 20px;
+    min-height: 224px;
+    max-height: 224px;
+    font: 300 16px / 20px 'Source Sans Pro';
+    color: #3c3c3c;
+    box-shadow: 1px 3px 5px 0.00px rgba(26, 24, 28, 0.14);
+}
+.infobox-header h2 {
+    font: 300 21px / 51px 'Source Sans Pro';   
+    color: #ffffff;
+    padding: 0 20px;    
+}
+.rechteck1 {
+    background: url(../img/Rechteck-1.png) no-repeat;
+    max-width: 300px;
+    max-height: 51px;
+    margin-bottom: 2px;
+}
+.rechteck1 h2 {
+    line-height: 51px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.rechteck2 {
+    background: url(../img/Rechteck-2.png) no-repeat;
+    max-width: 300px;
+    max-height: 44px;
+    margin-top: 28px;
+    margin-bottom: 2px;
+}
+.rechteck2 h2 {
+    line-height: 44px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.rechteck3 {
+    background: url(../img/Rechteck-3.png) no-repeat;
+    max-width: 300px;
+    max-height: 43px;
+    text-align: right;
+    margin-top: 28px;
+}
+.rechteck3 h2 {
+    line-height: 43px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.activities {
+    background: #ffffff;
+    margin-bottom: 1px;
+    padding-left: 15px;
+    box-shadow: 2px 3px 4px 0.00px rgba(26, 24, 28, 0.18);
+}
+.activities a {
+    color: #26668d;
+    font: 600 16px / 29px 'Source Sans Pro';
+}
+.some-space {
+    min-height: 10px;
+}
+/* ==========================================================================
+   Profil
+   ========================================================================== */
+.profilbox-header h2 {
+    font: 300 22px / 55.181px 'Source Sans Pro';   
+    color: #ffffff;
+    padding: 0 20px;    
+}
+.rechteck4 {
+    background: url(../img/Rechteck-4.png) no-repeat;
+    max-width: 236px;
+    max-height: 45px;
+    margin-top: 28px;
+}
+.rechteck4 h2 {
+    line-height: 45px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.profilbox-content {
+   background: rgba(255,255,255,0.5);
+    padding: 30px;
+    font: 300 16px / 20px 'Source Sans Pro';
+    color: #3c3c3c;
+}
+.profilbox-content img {
+    float: left;
+    margin-right: 40px;
+}
+.profilbox-content p.lead {
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font: 300 24px / 55.181px 'Source Sans Pro';
+    color: #57666d;
+}
+.profilbox-content p {
+    font: 300 16px / 20px 'Source Sans Pro';
+    color: #3c3b3b;
+    margin-bottom: 3px;
+}
+.profilbox-content a {
+    font: 400 16px / 24px 'Source Sans Pro';
+    color: #26668d;
+    text-decoration: underline;
+}
+/* ==========================================================================
+   Article
+   ========================================================================== */
+hr {
+    color:transparent;
+/*    height: 1px;*/
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.section-content {
+  margin-top: 10px;
+}
+.content-header {
+    background: url(../img/Rechteck-5.png) no-repeat;
+    max-width: 322px;
+    max-height: 45px;
+    margin-top: 28px;   
+}
+.content-header h2 {
+    font: 300 22px / 55.181px 'Source Sans Pro';   
+    color: #ffffff;
+    padding: 0 20px;  
+    line-height: 45px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.content-text {
+    background: rgba(255,255,255,0.5);
+    padding: 20px 48px 48px;
+    font: 300 16px / 20px 'Source Sans Pro';
+    color: #3c3c3c;
+}
+.content-text img {
+    float: left;
+    margin-right: 40px;
+}
+article h3 {
+    font: 300 24px / 55.181px 'Source Sans Pro';
+    color: #57666d;
+    text-transform: uppercase;
+}
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.section-footer .footer-text  {
+    margin-top: -29px;
+    background: #ffffff;  
+    min-height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section-footer a {
+    font: 300 13px / 45px 'Source Sans Pro';
+    color: #3c3c3c;
+}
+.footer-text {
+   text-align: right;
+}
+/* ==========================================================================
+   MEDIA QUERYS
+   ========================================================================== */
+@media(max-width:767px){
+    body {
+        /*background: blue;*/
+    }
+    .container {
+      /*padding-right: 28px;
+      padding-left: 14px;*/
+      /*padding-right: 40px;
+      padding-left: 0px;*/
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    .navbar-fixed-top {
+      margin-top: -100px;
+      position: static; 
+    }
+    .nav {
+        padding-left: 15px;
+        padding-bottom: 8px;
+        padding-right: 15px;
+     }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+      border-color: transparent;
+    }
+   .dropdown-menu > .active > a,
+   .dropdown-menu > .active > a:hover,
+   .dropdown-menu > .active > a:focus {
+       color: #FFF;
+       text-decoration: none;
+       background-color: #25668d;
+       outline: 0px none;
+   }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .open > a {
+     background-image: linear-gradient(to bottom, #12598f 0px, #12598f 100%);
+     background: #12598f;
+  }
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:focus,
+  .navbar-default .navbar-nav > .open > a:hover {
+     color: #fff;
+     background-color: #12598f;
+  }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > li > a:hover  {
+     background-image: linear-gradient(to bottom, #12598f 0px, #12598f 100%);
+     background-repeat: repeat-x;
+     border-bottom: none;
+     color: #fff;
+  }
+  .navbar-nav .open .dropdown-menu .dropdown-header,
+  .navbar-nav .open .dropdown-menu > li > a {
+    padding-bottom: 12px;
+    padding-top: 12px;
+    line-height: 12px;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+     color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+     color: #fff;
+     background-color: #12598F;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
+     color: #fff;
+     background-color: #12598F;
+  }
+  .navbar-default .navbar-nav > li > a {
+    background-image: linear-gradient(to bottom, #dcdcdc 0px, #dcdcdc 100%);
+     background-repeat: repeat-x;
+     color: #656464;
+     margin-bottom: 2px;
+  }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .open > a {
+    background-color: #12598f;
+    -webkit-box-shadow:rgba(0, 0, 0, 0.0742188) 0 3px 9px inset;
+    background-image:-webkit-gradient(linear, 0 0%, 0 100%, from(#12598f), to(#12598f));
+    background-repeat:repeat no-repeat;
+    box-shadow:rgba(0, 0, 0, 0.0742188) 0 3px 9px inset;
+  }
+  .navbar-default .navbar-nav > li > a {
+    background-color: #dcdcdc;
+     color: #656464;
+  }
+  .navbar-default .navbar-nav > li > a:hover {
+    background-color: #12598f;
+     color: #ffffff;
+  }
+  .navbar-toggle {
+      margin-right: 0px;
+    }
+
+    /*##############*/
+    .navbar-collapse.in {
+        overflow-y:  visible;
+    }
+   .nav > li:hover > a,
+   .nav > li:focus > a {
+      padding-bottom: 10px;
+   }
+   .navbar-default .navbar-toggle {
+        border-color: #25668d;
+    }
+   .navbar-default .navbar-toggle .icon-bar {
+          background-color: #25668d;
+   }
+   .container > .navbar-header, .container > .navbar-collapse {
+       margin-right: 0;
+       margin-left: 0;
+   }
+   .navbar-default .navbar-nav > .active > a,
+   .navbar-default .navbar-nav > .active > a:hover,
+   .navbar-default .navbar-nav > .active > a:focus {
+       padding-bottom: 10px;
+       margin-bottom: 2px;
+   }
+   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+       padding-bottom: 10px;
+       margin-bottom: -2px;
+   }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+       color: #656464;
+       background: #c6c6c6;
+       margin-bottom: 2px;
+   }
+   /*Carousel*/
+   .section-carousel {
+       margin-bottom: -120px;
+   }
+   .carousel-inner .item {
+        min-height: 200px;
+    }
+   .carousel-caption {
+       top: 0px;
+       right: 10%;
+       left: 10%;
+   }
+   .carousel-control {
+       top: 13%;
+       opacity: 1;
+       margin: 0px -30px;
+   }
+   .carousel-caption h1 {
+      margin-top: 0px;
+      font: italic 400 18px/32px "Source Sans Pro";
+      margin-left: 0px;
+   }
+   .carousel-caption p {
+      font: 600 10px/20px "Source Sans Pro";
+   }
+   .carousel-caption-right {
+      margin-left: 30px;
+   }
+   .carousel-caption-last {
+      margin-left: 10px;
+   }
+   .carousel-control.left img {
+      padding-left: 0px;
+      height: 60px;
+   }
+   .carousel-control.right img {
+      padding-left: 0px;
+      height: 60px;
+   }
+   .carousel-control {
+      margin: 0px 0px;
+   }
+   /*InfoBox*/
+   .infobox-header h2 {
+       font: 300 18px/51px "Source Sans Pro";
+   }
+   .infobox-content {
+      min-height: auto;
+   }
+   /*Footer*/
+   .section-footer .container {
+      /*max-width: 95%;*/
+    }
+    .footer-text {
+      text-align: center;
+   }
+}
+/* ==========================================================================
+   MEDIA QUERYS
+   ========================================================================== */
+@media(min-width:768px){
+    body {
+        /*background: red;*/
+    }
+    .nav > li > a {
+       font-size: 11px;
+       font-weight: 600;
+       padding: 6px;
+   }
+   .nav > li:hover > a, 
+   .nav > li:focus > a {
+      padding-bottom: 47px;
+   }
+   .navbar-default .navbar-nav > .active > a, 
+   .navbar-default .navbar-nav > .active > a:hover, 
+   .navbar-default .navbar-nav > .active > a:focus {
+      padding-bottom: 47px;
+   }
+   .nav .open > a, .nav .open > a:hover, 
+   .nav .open > a:focus {
+      padding-bottom: 47px;
+   }
+   /*Carousel*/
+   .carousel-caption h1 {
+       margin-top: 0px;
+       font: italic 300 35px/55px "Source Sans Pro";
+       margin-left: -160px;
+   }
+   .carousel-caption {
+      top: 0;
+   }
+   .carousel-control {
+      top: 30%;
+   }
+   .carousel-caption p {
+      font: 600 15px/20px "Source Sans Pro";
+   }
+}
+/* ==========================================================================
+   MEDIA QUERYS
+   ========================================================================== */
+@media(min-width:992px){
+    body {
+      /*background: green;*/
+    }
+    h1 {
+      margin: 0.5em 0px;
+   }
+    .container {
+      width: 990px;
+    }
+    .nav > li > a {
+       font-size: 17px;
+       font-weight: 300;
+   }
+   .carousel-caption h1 {
+      margin-top: 30px;
+      font: 300 italic 55px / 65px 'Source Sans Pro';
+      margin-left: -160px;
+   }
+}
+/* ==========================================================================
+   MEDIA QUERYS
+   ========================================================================== */
+/*@media(min-width:1200px){
+  body {
+
+  }
+  .container {
+    width: 960px;
+  }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
