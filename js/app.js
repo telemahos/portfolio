@@ -1,23 +1,3 @@
-/* Template Name: Cristino - Responsive Personal Template
-   Author: Shreethemes
-   Email: shreethemes@gmail.com
-   Website: http://www.shreethemes.in
-   Version: 1.5.0
-   Created: May 2020
-   File Description: Main JS file of the template
-*/
-
-/************************/
-/*       INDEX          */
-/*=======================
- *  01.  Loader         *
- *  02.  Menu           *
- *  03.  Scrollspy      *
- *  04.  Magnific Popup *
- *  05.  Owl Carousel   *
- *  06.  Back to top    *
- *  07.  Feather Icon   *
- =======================*/
 
 ! function($) {
     "use strict";
