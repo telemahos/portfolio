@@ -5,6 +5,8 @@
     <head>
         <meta charset="utf-8" />
         <title>Konstantinos Kakoulis</title>
+        <meta name="robots" content="noindex">
+        <meta name="googlebot" content="noindex">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- <meta name="description" content="Premium Bootstrap 4 Landing Page Template" />
         <meta name="keywords" content="bootstrap 4, premium, marketing, multipurpose" />
@@ -24,6 +26,7 @@
         <link rel="stylesheet" href="css/owl.transitions.css"/>    
         <!-- Custom Css -->
         <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="css/front.css" rel="stylesheet" type="text/css" id="theme-opt" />
         <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
 
     </head>
@@ -47,6 +50,9 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
     		<div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <span>{{ </span>k.kakoulis <span>}}</span> 
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span data-feather="menu" class="fea icon-md"></span>
                 </button><!--end button-->
@@ -68,9 +74,8 @@
                     </ul>
 
                     <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon">
-                        <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-xing"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-linkedin"></i></a></li>
                     </ul>
                 </div> 
             </div><!--end container-->
@@ -101,205 +106,10 @@
         <!-- HOME END-->
         
         <!-- About Start -->
-        <section class="section pb-3" id="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5 col-md-5">
-                        <div class="about-hero">
-                            <img src="images/hero.png" class="img-fluid mx-auto d-block about-tween position-relative" alt="">
-                        </div>
-                    </div><!--end col-->
+        <div class="container-fluid mt-100 mt-60" id="counter">
+        </div><!--end container fluid-->
 
-                    <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0">
-                        <div class="section-title mb-0 ml-lg-5 ml-md-3">
-                            <h4 class="title text-primary mb-3">Konstantinos Kakoulis</h4>
-                            <h6 class="designation mb-3">I'm a Passionate <span class="text-primary">Web Entwickler</span></h6>
-                            <p class="text-muted">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using 'Content here, content here', making it look like readable English.</p>
-                            <p class="text-muted">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                            <img src="images/sign.png" height="22" alt="">
-                            <div class="mt-4">
-                                <a href="#projects" class="btn btn-primary mouse-down">View Portfolio</a>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-
-            <div class="container mt-100 mt-60">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-                        <div class="section-title">
-                            <div class="titles">
-                                <h4 class="title title-line text-uppercase mb-4 pb-4">Fähigkeiten und Kenntnisse</h4>
-                                <span></span>
-                            </div>
-                            <p class="text-muted mx-auto para-desc mb-0">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-                
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                            <div class="hobbies d-flex align-items-center">
-                                <div class="text-center rounded-pill mr-4">
-                                    <i data-feather="monitor" class="icon fea icon-md-sm"></i>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title mb-0">Web Entwicklung</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                            <div class="hobbies d-flex align-items-center">
-                                <div class="text-center rounded-pill mr-4">
-                                    <i data-feather="stop-circle" class="icon fea icon-md-sm"></i>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title mb-0">PHP</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                            <div class="hobbies d-flex align-items-center">
-                                <div class="text-center rounded-pill mr-4">
-                                    <i data-feather="video" class="icon fea icon-md-sm"></i>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title mb-0">Python</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                            <div class="hobbies d-flex align-items-center">
-                                <div class="text-center rounded-pill mr-4">
-                                    <i data-feather="coffee" class="icon fea icon-md-sm"></i>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title mb-0">Java</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                            <div class="hobbies d-flex align-items-center">
-                                <div class="text-center rounded-pill mr-4">
-                                    <i data-feather="music" class="icon fea icon-md-sm"></i>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title mb-0">C</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                            <div class="hobbies d-flex align-items-center">
-                                <div class="text-center rounded-pill mr-4">
-                                    <i data-feather="watch" class="icon fea icon-md-sm"></i>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title mb-0">SQL</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                            <div class="hobbies d-flex align-items-center">
-                                <div class="text-center rounded-pill mr-4">
-                                    <i data-feather="box" class="icon fea icon-md-sm"></i>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title mb-0">HTML</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                            <div class="hobbies d-flex align-items-center">
-                                <div class="text-center rounded-pill mr-4">
-                                    <i data-feather="target" class="icon fea icon-md-sm"></i>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title mb-0">CSS</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                            <div class="hobbies d-flex align-items-center">
-                                <div class="text-center rounded-pill mr-4">
-                                    <i data-feather="pen-tool" class="icon fea icon-md-sm"></i>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title mb-0">Javascript</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                            <div class="hobbies d-flex align-items-center">
-                                <div class="text-center rounded-pill mr-4">
-                                    <i data-feather="book" class="icon fea icon-md-sm"></i>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title mb-0">Bootstrap</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                            <div class="hobbies d-flex align-items-center">
-                                <div class="text-center rounded-pill mr-4">
-                                    <i data-feather="smartphone" class="icon fea icon-md-sm"></i>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title mb-0">WordPress</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                            <div class="hobbies d-flex align-items-center">
-                                <div class="text-center rounded-pill mr-4">
-                                    <i data-feather="activity" class="icon fea icon-md-sm"></i>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title mb-0">Apache Server</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                </div>
-            </div><!--end container-->
-
-            <div class="container-fluid mt-100 mt-60" id="counter">
-            </div><!--end container fluid-->
-        </section>
+        
         <!-- About end -->
             
         <!-- Services Start -->
@@ -313,10 +123,10 @@
                     <div class="col-12 text-center">
                         <div class="section-title">
                             <div class="titles">
-                                <h4 class="title title-line text-uppercase mb-4 pb-4">Resume</h4>
+                                <h4 class="title title-line text-uppercase mb-4 pb-4">Beruflicher Werdegang</h4>
                                 <span></span>
                             </div>
-                            <p class="text-muted mx-auto para-desc mb-0">Nach meinen umzug aus Griechenland (Juli 2017), arbeite ich als Restaurantleiter in Überlingen. </p>
+                            <p class="text-muted mx-auto para-desc mb-0"> </p>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -361,7 +171,7 @@
                                                 <li>Entwicklung von Modulen basierend auf Kundenwünschen
                                                 </li>
                                                 <li>Content-Management mit Schwerpunkt auf WordPress</li>
-                                                <li>Entwicklung von WordPress Themes, OpenCart Themes</li>
+                                                <li>Entwicklung von WordPress und OpenCart Themes</li>
                                                 <li>Webseiten-Optimierung</li>
                                                 <li>Erfahrung in der Datenbankentwicklung</li>
                                             </ul>
@@ -420,7 +230,7 @@
                                 <h4 class="title title-line text-uppercase mb-4 pb-4">Portfolio</h4>
                                 <span></span>
                             </div>
-                            <p class="text-muted mx-auto para-desc mb-0">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
+                            <p class="text-muted mx-auto para-desc mb-0">EINE KLEINE AUSWAHL MEINER KREATIVEN ARBEIT ALS FREELANCER</p>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -761,47 +571,34 @@
                                 <h4 class="title title-line text-uppercase mb-4 pb-4">Contact Me</h4>
                                 <span></span>
                             </div>
-                            <p class="text-muted mx-auto para-desc mb-0">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
+                            <p class="text-muted mx-auto para-desc mb-0">Wenn Sie weitere Informationen wünschen oder einen Termin                                   vereinbaren möchten, können Sie sich telefonisch, oder per E-Mail bei mir melden.</p>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
 
                 <div class="row">
-                    <div class="col-md-4 mt-4 pt-2">
+                    <div class="col-md-6 mt-4 pt-2">
                         <div class="contact-detail text-center">
                             <div class="icon">
                                 <i data-feather="phone" class="fea icon-md"></i>
                             </div>
                             <div class="content mt-4">
-                                <h5 class="title text-uppercase">Phone</h5>
-                                <p class="text-muted">Promising development turmoil inclusive education transformative community</p>
-                                <a href="tel:+152534-468-854" class="text-primary">+152 534-468-854</a>
+                                <h5 class="title text-uppercase">Telefon</h5>
+                                <p class="text-muted"></p>
+                                <a href="tel:+49 152 57589300" class="text-primary">+49 152 57589300</a>
                             </div>  
                         </div>
                     </div><!--end col-->
                     
-                    <div class="col-md-4 mt-4 pt-2">
+                    <div class="col-md-6 mt-4 pt-2">
                         <div class="contact-detail text-center">
                             <div class="icon">
                                 <i data-feather="mail" class="fea icon-md"></i>
                             </div>
                             <div class="content mt-4">
                                 <h5 class="title text-uppercase">Email</h5>
-                                <p class="text-muted">Promising development turmoil inclusive education transformative community</p>
-                                <a href="mailto:contact@example.com" class="text-primary">contact@example.com</a>
-                            </div>  
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-md-4 mt-4 pt-2">
-                        <div class="contact-detail text-center">
-                            <div class="icon">
-                                <i data-feather="map-pin" class="fea icon-md"></i>
-                            </div>
-                            <div class="content mt-4">
-                                <h5 class="title text-uppercase">Location</h5>
-                                <p class="text-muted">C/54 Northwest Freeway, Suite 558, <br>Houston, USA 485</p>
-                                <a href="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6030.418742494061!2d-111.34563870463673!3d26.01036670629853!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1471908546569" class="video-play-icon text-primary">View on Google map</a>
+                                <p class="text-muted"></p>
+                                <a href="mailto:info@kakoulis.me" class="text-primary">info@kakoulis.me</a>
                             </div>  
                         </div>
                     </div><!--end col-->
@@ -821,17 +618,17 @@
                                         <div class="row">
                                             <div class="col-lg-12 col-md-6">
                                                 <div class="form-group">
-                                                    <input name="name" id="name" type="text" class="form-control border rounded" placeholder="First Name :">
+                                                    <input name="name" id="name" type="text" class="form-control border rounded" placeholder="Ihr Name :">
                                                 </div>
                                             </div><!--end col-->
                                             <div class="col-lg-12 col-md-6">
                                                 <div class="form-group">
-                                                    <input name="email" id="email" type="email" class="form-control border rounded" placeholder="Your email :">
+                                                    <input name="email" id="email" type="email" class="form-control border rounded" placeholder="Ihre E-mail :">
                                                 </div> 
                                             </div><!--end col-->
                                             <div class="col-lg-12">
                                                 <div class="form-group">
-                                                    <input name="subject" id="subject" class="form-control border rounded" placeholder="Your subject :">
+                                                    <input name="subject" id="subject" class="form-control border rounded" placeholder="Betreff :">
                                                 </div>                                                                               
                                             </div><!--end col-->
                                         </div><!--end row-->
@@ -839,13 +636,13 @@
 
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <textarea name="comments" id="comments" rows="4" class="form-control border rounded" placeholder="Your Message :"></textarea>
+                                            <textarea name="comments" id="comments" rows="4" class="form-control border rounded" placeholder="Ihre Nachricht :"></textarea>
                                         </div>
                                     </div><!--end col-->
                                 </div><!--end row-->
                                 <div class="row">
                                     <div class="col-sm-12 text-right">
-                                        <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary" value="Send Message">
+                                        <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary" value="Senden">
                                         <div id="simple-msg"></div>
                                     </div><!--end col-->
                                 </div><!--end row-->
@@ -862,23 +659,55 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <a href="#"><img src="images/logo-light.png" height="20" alt=""></a>
-                        <p class="para-desc mx-auto mt-5">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
+                        <a href="#"><img src="" height="20" alt=""></a>
+                        <p class="para-desc mx-auto mt-5"></p>
                         <ul class="list-unstyled mb-0 mt-4 social-icon">
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-vimeo"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-xing"></i></a></li>
                             <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-linkedin"></i></a></li>
                         </ul>
+                        <p class="para-desc mx-auto mt-5"></p>
+                        <div class="very-small">
+                            <p> (Angaben gemäß § 5 TMG):
+                            Konstantinos Kakoulis
+                            Kontakt: Telefon +49 (0)152 / 575 89 300, E-Mail info@kakoulis.me
+                            </p>
+                            <p>
+                            Haftung für Inhalte:
+                            Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+                            </p>
+                            <p>
+                            Haftung für Links:
+                            Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+                            </p>
+                            <p>
+                            Urheberrecht:
+                            Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+                            </p>
+                            <p>
+                            Datenschutz:
+                            Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung. Die Nutzung unserer Website ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
+                            </p>
+                            <p>
+                            Server-Log-Files:
+                            Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind: Browsertyp und Browserversion, verwendetes Betriebssystem, Referrer URL, Hostname des zugreifenden Rechners, Uhrzeit der Serveranfrage. Diese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.
+                            </p>
+                            <p>
+                            SSL-Verschlüsselung:
+                            Diese Seite nutzt aus Gründen der Sicherheit und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel der Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von "http://" auf "https://" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile. Wenn die SSL Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.
+                            </p>
+                            <p>
+                            Quelle:
+                            <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
+                            
+                            </p>
+                        </div>
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
         </footer><!--end footer-->
         <footer class="footer footer-bar bg-dark">
             <div class="container text-foot text-center">
-                <p class="mb-0">© 2019-20 Konstantinos Kakoulis. </p>
+                <p class="mb-0">© 2020 Konstantinos Kakoulis</p>
             </div><!--end container-->
         </footer><!--end footer-->
         <!-- Footer End -->
