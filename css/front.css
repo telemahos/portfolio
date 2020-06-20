@@ -3,8 +3,14 @@
 .navbar-nav  {
    margin-left: 15px !important;
 }
+.navbar-light .navbar-brand {
+   color: #e54b4b;
+   /* color:#3c4858; */
+}
 .navbar-brand span {
-   color:#e54b4b;
+   color:#3c4858;
+   font-size: 20px;
+   letter-spacing: 1.62px;
 }
 .very-small > p {
    color: #999;
